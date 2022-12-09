@@ -1,5 +1,6 @@
 import "./globals.css";
 import Head from "next/head";
+import NavBar from "./components/layout/NavBar";
 
 export default function RootLayout({
   children,
@@ -8,10 +9,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="antialiased">
-      <Head>
-        <title>My App</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
       <body>{children}</body>
     </html>
   );
