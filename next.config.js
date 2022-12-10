@@ -6,7 +6,11 @@ const nextConfig = {
   // allow url to be passed to next/image
 
   images: {
-    domains: ["images.unsplash.com", "a.espncdn.com"],
+    domains: [
+      "images.unsplash.com",
+      "a.espncdn.com",
+      "sxcontent9668.azureedge.us",
+    ],
   },
 
   formats: [
